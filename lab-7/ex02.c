@@ -11,8 +11,8 @@ int main()
     printf(" Before reverse : a=%d b=%d",a,b);
 
     int temp = *pt1;
-    *pt1 = 2;
-    *pt2 = temp
+    *pt1 = *pt2;
+    *pt2 = temp;
 
     printf(" \nAfter reverse : a=%d b=%d\n",a,b);
 
